@@ -28,6 +28,12 @@
     $(".btn-wrong").on("click", function() {
       $(".wrong-msg").slideDown();
     });
+    $(".btn-right").on("click", function() {
+      $(".wrong-msg").hide();
+    });
+    $(".btn-wrong").on("click", function() {
+      $(".correct-msg").hide();
+    });  
   </script>
 </body>
 </html>
